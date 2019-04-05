@@ -36,6 +36,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)updateTimeEntryWithDescription:(NSString *)descriptionName guid:(NSString *)guid;
 
+-(void) updateTimeEntryWithTags:(NSArray<NSString *> *) tags guid:(NSString *) guid;
+
 @end
 
 NS_ASSUME_NONNULL_END
